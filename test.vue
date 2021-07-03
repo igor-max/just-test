@@ -135,11 +135,7 @@ export default {
       })
     },
     handleLogin() {
-      if(true) {
-        console.log('login')
-      } else {
-        console.log('false');
-      }
+      console.log('login');
     },
     getOtherQuery(query) {
       if(query) {
