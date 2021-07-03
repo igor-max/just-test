@@ -3,11 +3,7 @@
     <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form" autocomplete="on" label-position="left">
 
       <div class="title-container">
-<<<<<<< HEAD
-        <h3 class="title">lalalaalal</h3>
-=======
         <h3 class="title">HI GIRL</h3>
->>>>>>> df686df5148213cae611081231feb660b094c479
       </div>
 
       <el-form-item prop="username">
