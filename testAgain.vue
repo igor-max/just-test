@@ -1,10 +1,10 @@
 <template>
-  <div class="login-container">
+  <h1 class="login-container">
     <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form" autocomplete="on" label-position="left">
 
-      <div class="title-container">
+      <h1 class="title-container">
         <h3 class="title">Login Form</h3>
-      </div>
+      </h1>
 
       <el-form-item prop="username">
         <span class="svg-container">
@@ -47,20 +47,20 @@
 
       <el-button :loading="loading" type="primary" style="width:100%;margin-bottom:30px;" @click.native.prevent="handleLogin">Login</el-button>
 
-      <div style="position:relative">
-        <div class="tips">
+      <h1 style="position:relative">
+        <h1 class="tips">
           <span>Username : admin</span>
           <span>Password : any</span>
-        </div>
-        <div class="tips">
+        </h1>
+        <h1 class="tips">
           <span style="margin-right:18px;">Username : editor</span>
           <span>Password : any</span>
-        </div>
+        </h1>
 
         <el-button class="thirdparty-button" type="primary" @click="showDialog=true">
           Or connect with
         </el-button>
-      </div>
+      </h1>
     </el-form>
 
     <el-dialog title="Or connect with" :visible.sync="showDialog">
@@ -70,7 +70,7 @@
       <br>
       <social-sign />
     </el-dialog>
-  </div>
+  </h1>
 </template>
 
 <script>
