@@ -39,21 +39,12 @@
 
       <el-button :loading="loading" type="primary" style="width:100%;margin-bottom:30px;" @click.native.prevent="handleLogin">Login</el-button>
 
-<<<<<<< HEAD
       <h1 style="position:relative">
         <h1 class="tips">
           <span>Username : admin</span>
           <span>Password : any</span>
         </h1>
         <h1 class="tips">
-=======
-      <section style="position:relative">
-        <section class="tips">
-          <span>Username : admin</span>
-          <span>Password : any</span>
-        </section>
-        <section class="tips">
->>>>>>> e272a252616f0f7088ffb9b03f35fe9b8b250f50
           <span style="margin-right:18px;">Username : editor</span>
           <span>Password : any</span>
         </h1>
