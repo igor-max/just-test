@@ -110,7 +110,8 @@ export default {
   watch: {
     $route: {
       handler: function(route) {
-        const query = route.query
+        const query = route.query;
+        console.log('not tree');
         if (query) {
           this.redirect = query.redirect
           this.otherQuery = this.getOtherQuery(query)
@@ -121,6 +122,7 @@ export default {
   },
   created() {
     // window.addEventListener('storage', this.afterQRScan)
+    console.log('is created');
   },
   mounted() {
     if (this.loginForm.username === '') {
