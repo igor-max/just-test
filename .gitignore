@@ -2,3 +2,6 @@
 
 # igornore .md file
 *.md
+
+# 忽略任何目录下名为 build 的文件夹
+build/
