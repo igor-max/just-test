@@ -19,7 +19,7 @@
           tabindex="1"
           autocomplete="on"
         />
-      </el-form-item>
+      </el-form-item>     
 
       <el-tooltip v-model="capsTooltip" content="Caps lock is On" placement="right" manual>
         <el-form-item prop="password">
