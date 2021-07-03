@@ -135,16 +135,16 @@ export default {
       })
     },
     handleLogin() {
-      console.log('shift');
-      console.log('both shift');
+      if(true) {
+        console.log('login')
+      } else {
+        console.log('false');
+      }
     },
     getOtherQuery(query) {
-      return Object.keys(query).reduce((acc, cur) => {
-        if (cur !== 'redirect') {
-          acc[cur] = query[cur]
-        }
-        return acc
-      }, {})
+      if(query) {
+        const num = Math.random();
+      } 
     }
     // afterQRScan() {
     //   if (e.key === 'x-admin-oauth-code') {
