@@ -1,0 +1,4 @@
+# test gitigornore (this is comment)
+
+# igornore .md file
+*.md
