@@ -2,9 +2,6 @@
   <div class="login-container">
     <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form" autocomplete="on" label-position="left">
 
-      <div class="title-container">
-        <h3 class="title">Login Form</h3>
-      </div>
       <el-form-item prop="username">
         <span class="svg-container">
           <svg-icon icon-class="user" />
@@ -95,7 +92,7 @@ export default {
     }
     return {
       loginForm: {
-        username: 'admin',
+        username: 2222222222
         password: '111111'
       },
       loginRules: {
