@@ -107,28 +107,13 @@ export default {
       otherQuery: {}
     }
   },
-  watch: {
-    $route: {
-      handler: function(route) {
-        const query = route.query;
-        console.log('not tree');
-        if (query) {
-          this.redirect = query.redirect
-          this.otherQuery = this.getOtherQuery(query)
-        }
-      },
-      immediate: true
-    }
-  },
-  created() {
-    // window.addEventListener('storage', this.afterQRScan)
-    console.log('is created');
-  },
   mounted() {
     if (this.loginForm.username === '') {
       this.$refs.username.focus()
     } else if (this.loginForm.password === '') {
       this.$refs.password.focus()
+    } else {
+      console.log('sds');
     }
   },
   destroyed() {
